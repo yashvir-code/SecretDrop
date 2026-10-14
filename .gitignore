@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend build files
+dist/
+
+# Test coverage
+coverage/
+
+# Private uploaded files
+backend/storage/
+
+# Logs
+npm-debug.log*
